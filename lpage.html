@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>LANDING PAGE</title>
+<style>
+    .sec1{
+        height: 50px;
+        width: 1368px;
+        /* border: 1px solid red; */
+        margin-left: -10px;
+        margin-top: -8px;
+        background-image: linear-gradient(to right, violet, orange);
+        display: flex;
+    }
+    .part1{
+        height: 50px;
+        width: 300px;
+     /* border: 1px solid black; */
+     margin-left: 100px;
+    }
+
+    .pa{
+        height: 50px;
+        width: 2px;
+        /* border: 1px solid black; */
+        background-color: white;
+        margin-left: 0px;
+    }
+    .youtubesec1{
+        color: red;
+        font-size: 30px;
+        cursor: pointer;
+        transition: 0.3s;
+        margin-left: 9px;
+        margin-top: 10px;
+    }
+    .youtubesec1:hover{
+        font-size: 28px;
+    }
+    .pb{
+        height: 50px;
+        width: 2px;
+        /* border: 1px solid black; */
+        background-color: white;
+        margin-left: 50px;
+        margin-top: -50px;
+    }
+    .facebooksec1{
+        color: blue;
+        font-size: 30px;
+        cursor: pointer;
+        transition: 0.3s;
+        margin-left: 9px;
+        margin-top: 10px;
+    }
+    .facebooksec1:hover{
+        font-size: 28px;
+    }
+    .pc{
+        height: 50px;
+        width: 2px;
+        /* border: 1px solid black; */
+        background-color: white;
+        margin-left: 100px;
+        margin-top: -50px;
+    }
+    .instagramsec1{
+        color: orangered;
+        font-size: 30px;
+        cursor: pointer;
+        transition: 0.3s;
+        margin-left: 9px;
+        margin-top: 10px;
+    }
+    .intsagramsec1:hover{
+        font-size: 28px;
+    }
+    .pd{
+        height: 50px;
+        width: 2px;
+        /* border: 1px solid black; */
+        background-color: white;
+        margin-left: 150px;
+        margin-top: -50px;
+    }
+    .whatsappsec1{
+        color: green;
+        font-size: 30px;
+        cursor: pointer;
+        transition: 0.3s;
+        margin-left: 9px;
+        margin-top: 10px;
+    }
+    .whatsappsec1:hover{
+        font-size: 28px;
+    }
+    .pe{
+        height: 50px;
+        width: 2px;
+        /* border: 1px solid black; */
+        background-color: white;
+        margin-left: 200px;
+        margin-top: -50px;
+    }
+    .twittersec1{
+        color: blue;
+        font-size: 30px;
+        cursor: pointer;
+        transition: 0.3s;
+        margin-left: 9px;
+        margin-top: 10px;
+    }
+    .twittersec1:hover{
+        font-size: 28px;
+    }
+    .pf{
+        height: 50px;
+        width: 2px;
+        /* border: 1px solid black; */
+        background-color: white;
+        margin-left: 250px;
+        margin-top: -50px;
+    }
+    .googledrivesec1{
+        color: darkblue;
+        font-size: 30px;
+        cursor: pointer;
+        transition: 0.3s;
+        margin-left: 9px;
+        margin-top: 10px;
+    }
+    .googledrivesec1:hover{
+        font-size: 28px;
+    }
+    .pg{
+        height: 50px;
+        width: 2px;
+        /* border: 1px solid black; */
+        background-color: white;
+        margin-left: 300px;
+        margin-top: -50px;
+    }
+    .part2{
+        height: 50px;
+        width: 130px;
+        /* border: 1px solid black; */
+        margin-left: 450px;
+    }
+    .part2 p{
+        font-size: medium;
+        font-weight: bold;
+        text-align: left;
+    }
+    .p2a{
+        height: 30px;
+        width: 2px;
+        /* border: 1px solid black; */
+        background-color: white;
+        margin-left: 115px;
+        margin-top: -40px;
+    }
+    p{
+        font-size: medium;
+        font-weight: bold;
+        text-align: right;
+    }
+    .para2:hover:hover{
+        color: white;
+        cursor: pointer;
+    }
+    .l1:hover{
+        color: red;  
+    }
+    .part3{
+        height: 50px;
+        width: 150px;
+        /* border: 1px solid black; */
+    }
+    .part3 p{
+        font-size: medium;
+        font-weight: bold;
+    }
+    .btn1{
+        height: 25px;
+            width: 100px;
+            background-color: yellow;
+            font-size: medium;
+            border: none;
+            border-radius: 15px;
+            margin-top: 10px;
+            margin-left: 50px;
+            cursor: pointer;
+    }
+    .btn1:hover{
+            background-color: darkorchid;
+            transition: 1s;
+            color: yellow;
+            border-radius: 20px;
+            font-weight: bold;
+        }
+    .sec2{
+        height: 50px;
+        width: 1368px;
+        /* border: 1px solid red; */
+        margin-left: -10px;
+        background-color: white;
+        padding: 1px;
+    }
+    .s1{
+        height: 50px;
+        width: 200px;
+        /* border: 1px solid black; */
+        margin-left: 100px;
+    }
+    .pg{
+        height: 50px;
+        width: 2px;
+        /* border: 1px solid black; */
+        background-color: white;
+        margin-left: 300px;
+        margin-top: -50px;
+    }
+    .s1 p{
+        font-size: large;
+        font-weight: bold;
+        text-align: center;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .s1:hover{
+        cursor: pointer;
+    }
+    #nav1{
+            height: 50px;
+            width: 720px;
+            /* border: 1px solid black; */
+            margin-left: 500px;
+            margin-top: -61px;
+            padding: 1px;
+        }
+        #ul1{
+            height: 50px;
+            width: 720px;
+            /* border: 1px solid green; */
+        }
+        .li1{
+            padding-top: 14px;
+            padding-bottom: 18px;
+            padding-left: 10px;
+            padding-right: 10px;
+            display: inline;
+            margin-left: 8px;
+            font-size: large;
+            font-weight: bold;
+            font-style: normal;
+            text-align: center;
+            cursor: pointer;
+            /* border: 3px solid red; */
+        }
+        .li1:hover{
+            background-color: rgb(245, 192, 93);
+            color: white;
+        }
+    .sec3{
+        height: 450px;
+        width: 1368px;
+        /* border: 1px solid black; */
+        margin-left: -10px;
+        background-image: url(https://recruit.plus1west.jp/img/sub/resource_pict1.png);
+        background-position: center;
+        background-size: cover;
+        padding: 1px;
+    }
+    .s3{
+        height: 200px;
+        width: 700px;
+        /* border: 1px solid yellow; */
+        margin-left: 350px;
+        margin-top: 100px;
+    } 
+    .s31{
+        height: 200px;
+        width: 2px;
+        /* border: 1px solid white; */
+        background-color: black;
+    }
+    .s32{
+        height: 50px;
+        width: 300px;
+        /* border: 1px solid white; */
+        margin-left: 30px;
+        margin-top: 10px;
+        padding: 1px;
+    }
+    .s32 p{
+        font-size: medium;
+        font-weight: bold;
+        color: black;
+        text-align: left;
+        font-family: serif;
+        text-shadow: white;
+    }
+    .s32 p:hover{
+        color: red;
+        cursor: pointer;
+    }
+    .s33{
+        height: 60px;
+        width: 900px;
+        /* border: 1px solid white; */
+        margin-left: 30px;
+        margin-top: -20px;
+    }
+    .s33 p{
+        font-size: xx-large;
+        font-weight: bolder;
+        color: rgb(228, 38, 101);
+        text-align: left;
+        font-family: monospace,'Times New Roman', Times, serif;
+    }
+    .s33 p:hover{
+        cursor: pointer;
+        color: blueviolet;
+    }
+    .s34{
+        height: 80px;
+        width: 700px;
+        /* border: 1px solid white; */
+        margin-left: 30px;
+        margin-top: -10px;
+    }
+    .s34 p{
+        font-size: medium;
+        color: rgb(22, 129, 190);
+        text-align: justify;
+    }
+    .s34 p:hover{
+        cursor: pointer;
+        color: red;
+    }
+    .sec4{
+        height: 200px;
+        width: 1368px;
+        /* border: 1px solid black; */
+        margin-left: -10px;
+        background-image: linear-gradient(to right, violet, orange);
+        display: flex;
+        padding: 1px;
+    }
+    .s4{
+        height: 100px;
+        width: 210px;
+        /* border: 1px solid black; */
+        margin-left: 250px;
+        margin-top: 50px;
+        padding: 1px;
+    }
+    .s4 P{
+        font-size: large;
+        font-weight: bold;
+        text-align: center;
+        padding: 1px;
+    }
+    .s41 p{
+        font-size: medium;
+        text-align: justify;
+        padding: 1px;
+    }
+    .s42{
+        height: 100px;
+        width: 250px;
+        /* border: 1px solid black; */
+        margin-left: 110px;
+        margin-top: 50px;
+        padding: 1px;
+    }
+    .s42 P{
+        font-size: large;
+        font-weight: bold;
+        text-align: center;
+        padding: 1px;
+    }
+    .s43 p{
+        font-size: medium;
+        text-align: justify;
+        padding: 1px;
+    }
+    .s44{
+        height: 100px;
+        width: 220px;
+        /* border: 1px solid black; */
+        margin-left: 350px;
+        margin-top: -115px;
+        padding: 1px;
+    }
+    .s44 P{
+        font-size: large;
+        font-weight: bold;
+        text-align: center;
+        padding: 1px;
+    }
+    .s45 p{
+        font-size: medium;
+        text-align: justify;
+        padding: 1px;
+    }
+    .sec5{
+        height: 400px;
+        width: 1368px;
+        /* border: 1px solid black; */
+        margin-left: -573px;
+        margin-top: 50px;
+        background-color: white;
+        padding: 1px;
+    }
+    .s5 p{
+        height: 50px;
+        width: 190px;
+        /* border: 1px solid black; */
+        margin-left: 250px;
+        margin-top: 50px;
+        font-size: xx-large;
+        font-weight: bold;
+        text-align: justify;
+        font-family: 'monospace';
+        padding: 1px;
+    }
+    .s5 p:hover{
+        color: red;
+    }
+    .s51{
+        height: 2px;
+        width: 70px;
+        /* border: 1px solid black; */
+        margin-left: 250px;
+        margin-top: -40px;
+        background-image: linear-gradient(to right, violet, orange);
+        padding: 1px;
+    }
+    .s52{
+        height: 200px;
+        width: 550px;
+        /* border: 1px solid black; */
+        margin-left: 250px;
+        margin-top: 10px;
+        
+    }
+    .s52 p{
+        font-size: medium;
+        text-align: justify;
+    }
+    .btn2{
+        height: 50px;
+            width: 150px;
+            /* background-color: yellow; */
+            background-image: linear-gradient(to right, violet, orange);
+            font-size: medium;
+            border: none;
+            border-radius: 25px;
+            margin-top: 5px;
+            margin-left: 250px;
+            cursor: pointer;
+    }
+    .btn2:hover{
+            background-color: palevioletred;
+            transition: 1s;
+            color: white;
+            border-radius: 20px;
+            font-weight: bold;
+            
+        }
+    .s53{
+        height: 100px;
+        width: 300px;
+        /* border: 1px solid violet; */
+        margin-left: 850px;
+        padding: 0.5px;
+        margin-top: -100px;
+        background-image: linear-gradient(violet, orange);
+    }
+    .ins53{
+        height: 80px;
+        width: 280px;
+        background-color: white;
+        margin-left:10px;
+        margin-top: 10px;
+    }   
+    .s54{
+        height: 350px;
+        width: 240px;
+        /* border: 1px solid black; */
+        margin-left: 870px;
+        margin-top: -356px;
+        padding: 1px;
+    }
+    .s54 img{
+        height: 100%;
+        width: 100%;
+    }
+    .sec6{
+        height: 400px;
+        width: 1368px;
+        /* border: 1px solid black; */
+        margin-left: -572px;
+        background-color: lightgray;
+        padding: 1px;
+    }
+    .s6:hover{
+        color: red;
+    }
+    .s6 p{
+        height: 40px;
+        width: 260px;
+        /* border: 1px solid black; */
+        margin-left: 250px;
+        margin-top: 50px;
+        font-size: xx-large;
+        font-weight: bold;
+        text-align: center;
+        padding: 1px;
+    }
+    .s61{
+        height: 2px;
+        width: 70px;
+        /* border: 1px solid black; */
+        margin-left: 263px;
+        margin-top: -30px;
+        background-image: linear-gradient(to right, violet, orange);
+        padding: 1px;
+    }
+    .s62{
+        height: 200px;
+        width: 300px;
+        /* border: 1px solid black; */
+        margin-left: 263px;
+        margin-top: 30px;
+        background-image: url(https://th.bing.com/th/id/OIP.V0hUDf_JV35usBO_cI9iMAHaE8?pid=ImgDet&rs=1);
+        background-position: center;
+        background-size: cover;
+        padding: 1px;
+    }
+    .s621{
+        height: 50px;
+        width: 210px;
+        /* border: 1px solid black; */
+        margin-left: 353px;
+        margin-top: -20px;
+        background-color: white;
+        padding: 1px;
+        border-radius: 2px;
+    }
+    .s621 p{
+        font-size: medium;
+        font-weight: bold;
+        text-align: center;
+    }
+    .s621 p:hover{
+        color: red;
+    }
+    .s622{
+        height: 50px;
+        width: 50px;
+        /* border: 1px solid black; */
+        border-radius: 50px;
+        margin-left: 320px;
+        margin-top: -52px;
+        background-image: linear-gradient(to right, violet, orange);
+        padding: 1px;
+    }
+    .s63{
+        height: 200px;
+        width: 300px;
+        /* border: 1px solid black; */
+        margin-left: 600px;
+        margin-top: -232px;
+        background-image: url(https://s3-us-west-2.amazonaws.com/techvibes/wp-content/uploads/2017/10/04095826/Autodesk2.jpg);
+        background-position: center;
+        background-size: cover;
+        padding: 1px;
+    }
+    .s631{
+        height: 50px;
+        width: 210px;
+        /* border: 1px solid black; */
+        margin-left: 690px;
+        margin-top: -20px;
+        background-color: white;
+        padding: 1px;
+        border-radius: 2px;
+    }
+    .s631 p{
+        font-size: medium;
+        font-weight: bold;
+        text-align: center;
+    }
+    .s631 p:hover{
+        color: red;
+    }
+    .s632{
+        height: 50px;
+        width: 50px;
+        /* border: 1px solid black; */
+        border-radius: 50px;
+        margin-left: 660px;
+        margin-top: -52px;
+        background-image: linear-gradient(to right, violet, orange);
+        padding: 1px;
+    }
+    .s64{
+        height: 200px;
+        width: 300px;
+        /* border: 1px solid black; */
+        margin-left: 940px;
+        margin-top: -232px;
+        background-image: url(https://thumbs.dreamstime.com/b/modern-office-interior-generative-ai-modern-office-interior-blurred-interior-office-building-workplaces-generative-ai-271581329.jpg);
+        background-position: center;
+        background-size: cover;
+        padding: 1px;
+    }
+    .s641{
+        height: 50px;
+        width: 210px;
+        /* border: 1px solid black; */
+        margin-left: 1030px;
+        margin-top: -20px;
+        background-color: white;
+        padding: 1px;
+        border-radius: 2px;
+    }
+    .s641 p{
+        font-size: medium;
+        font-weight: bold;
+        text-align: center;
+    }
+    .s641 p:hover{
+        color: red;
+    }
+    .s642{
+        height: 50px;
+        width: 50px;
+        /* border: 1px solid black; */
+        border-radius: 50px;
+        margin-left: 1000px;               
+        margin-top: -52px;
+        background-image: linear-gradient(to right, violet, orange);
+        padding: 1px;
+    }
+</style>
+</head>
+<body>
+    <div class="sec1">
+        <div class="part1">
+            <div class="pa"><i class="fa-brands fa-youtube youtubesec1"></i></div>
+            <div class="pb"><i class="fa-brands fa-facebook facebooksec1"></i></div>
+            <div class="pc"><i class="fa-brands fa-instagram instagramsec1"></i></div>
+            <div class="pd"><i class="fa-brands fa-whatsapp whatsappsec1"></i></div>
+            <div class="pe"><i class="fa-brands fa-twitter twittersec1"></i></div>
+            <div class="pf"><i class="fa-brands fa-google-drive googledrivesec1"></i></div>
+            <div class="pg"></div>
+        </div>
+        <div class="part2">
+            <p class="para2">+923345800643</p>
+            <div class="p2a"></div>
+        </div>
+            <div class="part3"><p class="para2">ifraali737@gmail.com</p></div>
+            <button class="btn1">Get Info</button>
+        </div>
+        <div class="sec2">
+            <div class="s1"></i><p class="l1">LANDING PAGE</p>
+            <div id="nav1">
+                <ul id="ul1">
+                    <li class="li1">Home</li>
+                    <li class="li1">Blog</li>
+                        <li class="li1">Page</li>
+                            <li class="li1">Services</li>
+                                <li class="li1">Testimonials</li>
+                                    <li class="li1">Contact</li>
+                                        <li class="li1">Buy Now</li>
+                </ul>
+            </div>
+            </div>
+        </div> 
+        <div class="sec3">
+            <div class="s3">
+                <div class="s31">
+                    <div class="s32"><p>❚█══𝐖𝐄 𝐀𝐑𝐄 𝐂𝐑𝐄𝐀𝐓𝐈𝐕𝐄𝐒══█❚</p></div>
+                    <div class="s33"><p>∙ᵒᴼⒸⓇⒺⒶⓉⒾⓋⒺ ⒹⒾⒼⒾⓉⒶⓁ ⒶⒼⒺⓃⒸⓎᴼᵒ∙</p></div>
+                    <div class="s34"><p>𝙇𝙤𝙧𝙚𝙢 𝙞𝙥𝙨𝙪𝙢 𝙙𝙤𝙡𝙤𝙧 𝙨𝙞𝙩 𝙖𝙢𝙚𝙩, 𝙘𝙤𝙣𝙨𝙚𝙘𝙩𝙚𝙩𝙪𝙧 𝙖𝙙𝙞𝙥𝙞𝙨𝙞𝙘𝙞𝙣𝙜 𝙚𝙡𝙞𝙩. 𝙁𝙪𝙜𝙞𝙖𝙩 𝙞𝙡𝙡𝙤 𝙖𝙡𝙞𝙖𝙨 𝙚𝙨𝙩. 𝙀𝙡𝙞𝙜𝙚𝙣𝙙𝙞 𝙢𝙖𝙭𝙞𝙢𝙚 𝙚𝙭𝙘𝙚𝙥𝙩𝙪𝙧𝙞 𝙢𝙖𝙜𝙣𝙞 𝙖𝙢𝙚𝙩 𝙫𝙚𝙧𝙞𝙩𝙖𝙩𝙞𝙨 𝙞𝙥𝙨𝙪𝙢 𝙥𝙖𝙧𝙞𝙖𝙩𝙪𝙧 𝙫𝙤𝙡𝙪𝙥𝙩𝙖𝙩𝙚 𝙚𝙫𝙚𝙣𝙞𝙚𝙩 𝙫𝙚𝙡𝙞𝙩? 𝙌𝙪𝙞 𝙧𝙚𝙢 𝙥𝙚𝙧𝙛𝙚𝙧𝙚𝙣𝙙𝙞𝙨 𝙫𝙚𝙣𝙞𝙖𝙢 𝙨𝙞𝙩 𝙘𝙤𝙢𝙢𝙤𝙙𝙞 𝙞𝙣𝙘𝙞𝙙𝙪𝙣𝙩?</p></div>
+                </div>
+            </div>
+        </div>
+       <div class="sec4">
+            <div class="s4"><p>LAUNCH BUISNESS</p>
+                <div class="s41"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p></div>
+            </div>
+            <div class="s42"><p>ONLINE SUPPORT TEAM</p>
+                <div class="s43"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p></div>
+            <div class="s44"><p>TIME MANAGEMENT</p>
+                <div class="s45"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p></div>      
+       </div>
+       <div class="sec5">
+            <div class="s5"><p>ABOUT US</p></div>
+            <div class="s51"></div>
+            <div class="s52"><p>15 years, we passionate about achieving better results for our clients</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis ab autem sapiente error at repellat maiores hic incidunt iure, ducimus voluptates voluptatem facilis suscipit id. Sit blanditiis error eligendi ratione. Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quas natus, iusto optio aut id vero eum quo facilis magni! Deserunt aliquam alias optio et ab ea modi esse officiis!</p>
+            </div>
+            <button class="btn2">READ MORE</button>
+            <div class="s53">
+                <div class="ins53"></div>
+            </div>
+            <div class="s54"><img src="OIP__1_-removebg-preview.png.crdownload" alt=""></div>
+       </div>
+       <div class="sec6">
+            <div class="s6"><p>OUR SERVICES</p></div>
+            <div class="s61"></div>
+            <div class="s62"></div>
+            <div class="s621"><p>USER EXPERIRENCE</p></div>
+            <div class="s622"></div>
+            <div class="s63"></div>
+            <div class="s631"><p>CREATIVE DESIGN</p></div>
+            <div class="s632"></div>
+            <div class="s64"></div>
+            <div class="s641"><p>ILLUSTRATION</p></div>
+            <div class="s642"></div>
+       </div>
+    </div>    
+</body>
+</html>
